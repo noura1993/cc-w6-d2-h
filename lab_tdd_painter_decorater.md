@@ -22,7 +22,7 @@ A room should:
 - should start not painted
 - should be able to be painted
 
-A paint can should:
+A paint should:
 
 - have a number of litres of paint
 - be able to check if it is empty

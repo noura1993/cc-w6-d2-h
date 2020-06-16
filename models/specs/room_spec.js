@@ -5,7 +5,7 @@ describe('Room', function () {
 
   let room;
 
-  beforeEach(function () {
+  beforeEach( function () {
     room = new Room(12);
   });
 
