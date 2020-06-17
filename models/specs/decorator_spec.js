@@ -48,6 +48,17 @@ describe('Decorator', function () {
         assert.strictEqual(actual, true);
     });
 
+    it('should be able to decrease amount of paint in stock when painting a room and remove empty paint cans from stock', function () {
+        decorator.addPaint(new Paint(5));
+        decorator.addPaint(new Paint(5));
+        decorator.addPaint(new Paint(6));
+        decorator.addPaint(new Paint(5));
+        decorator.paint(room); 
+        assert.strictEqual(room.painted, true);
+        assert.strictEqual(decorator.stock.length, 2);
+        assert.strictEqual(decorator.calculateLitres(), 9);
+    });
+
   });
 
 });
