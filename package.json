@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/noura1993/cc-w6-d2-h#readme",
   "devDependencies": {
-    "mocha": "^8.0.1"
+    "mocha": "^8.4.0"
   }
 }
